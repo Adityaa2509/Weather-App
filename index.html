@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/clouds.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <div class="search-bar">
+                <input type="text" name="search" id="search">
+            </div>
+            <div class="si"> 
+            <img src="./images/search.png" alt="search-icon" class="search-icon">
+            
+        </div>
+        </div>
+            <img class="weather-icon" src="">
+        
+        <div class="basic-data">
+            <div class="temperature"></div>
+            <div class="city"></div>
+        </div>
+        <div class="main-info">
+            <div class="hum-info">
+                <img class="ic1" src="./images/humidity.png" alt="humidity-icon">
+                <div class="humidity-info">
+                    <div class="humidity" id="dt"></div>
+                    <p class="sm"></p>
+                </div>     
+            </div>
+            <div class="hum-info">
+                <img src="./images/wind.png" alt="wind-speed-icon" class="ic2">
+                <div class="humidity-info">
+                    <div class="speed" id="dt"></div>
+                    <p class="sm"></p>
+                </div>     
+            </div>
+        </div>
+    </div>
+    <div class="dp" id="err">
+        <img class="msg" src="./images/not-found.png" alt="" srcset="">
+    </div>
+    <div class="dp" id="lddiv">
+        <img class="ld" src="./images/loading.gif" alt="loading-gif">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

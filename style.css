@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(34, 193, 195), rgb(253, 187, 45));
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;    
+}
+
+.search-box{
+    display: flex;    
+    margin-top: 120px;
+}
+.search-bar{
+    background-color:aliceblue;
+    width: 415px;
+    height: 45px;    
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    
+}
+input{
+    background-color: aliceblue;
+    width: 400px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 25px;
+    padding-left: 15px;
+}
+.si{
+    margin-top: 1px;
+    margin-left: -70px;
+    /* background-color: aliceblue; */
+   border-radius: 100%;
+   display: none;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin: 18px;
+}
+.si:hover{
+    cursor: pointer;
+    
+}
+.weather-icon{
+    width: 200px;
+}
+.temperature{
+    font-size: 80px;
+    font-weight: 600;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.city{
+    font-size: 40px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-top: -10px;    
+}
+#err{
+    
+    background: linear-gradient(to right, rgb(34, 193, 195), rgb(253, 187, 45));
+    min-height: 100vh;
+}
+.msg{
+    width: 350px;
+    height: 450px;
+    margin-left: 550px;
+    margin-top: 220px;
+}
+#lddiv{
+    background: linear-gradient(to right, rgb(34, 193, 195), rgb(253, 187, 45));
+    min-height: 100vh;
+}
+.ld{
+    width: 300px;
+    margin-left: 550px;
+    margin-top: 220px;
+}
+.main-info{
+    display: flex;
+    gap: 200px;
+    margin-top: 40px;
+}
+.hum-info{
+    display: flex;
+    gap: 15px;
+}
+.dp{
+    display: none;
+}
+#dt{
+    font-size: 35px;
+    color: aliceblue;
+    font-weight: 400;
+}
+.sm{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.ic1{
+    width: 65px;
+    height: 60px;
+}
+
+.ic2{
+    width: 80px;
+}
